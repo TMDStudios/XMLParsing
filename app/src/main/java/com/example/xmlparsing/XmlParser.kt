@@ -42,9 +42,6 @@ class XmlParser {
         }catch(e: IOException){
             e.printStackTrace()
         }
-        for(i in students){
-            println("STUDENT: $i")
-        }
         return students
     }
 }
